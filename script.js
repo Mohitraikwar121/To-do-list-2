@@ -1,0 +1,28 @@
+document.getElementById("addTask").addEventListener("click", function () {
+  const taskInput = document.getElementById("taskInput");
+  const taskText = taskInput.value.trim();
+
+  if (taskText === "") return;
+
+  const li = document.createElement("li");
+
+  const span = document.createElement("span");
+  span.textContent = taskText;
+  span.addEventListener("click", function () {
+    li.classList.toggle("completed");
+  });
+
+  const removeBtn = document.createElement("button");
+  removeBtn.textContent = "Remove";
+  removeBtn.className = "remove-btn";
+  removeBtn.addEventListener("click", function () {
+    li.remove();
+  });
+
+  li.appendChild(span);
+  li.appendChild(removeBtn);
+
+  document.getElementById("taskList").appendChild(li);
+
+  taskInput.value = "";
+});
