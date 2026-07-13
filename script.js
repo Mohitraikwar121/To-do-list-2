@@ -21,7 +21,6 @@ document.getElementById("addTask").addEventListener("click", function () {
 
   li.appendChild(span);
   li.appendChild(removeBtn);
-
   document.getElementById("taskList").appendChild(li);
 
   taskInput.value = "";
