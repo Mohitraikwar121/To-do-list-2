@@ -25,3 +25,12 @@ Before you begin, ensure you have met the following requirements:
 * You have installed the latest version of **Node.js and npm** (if applicable).
 * You have a modern web browser installed.
  💻 Getting Started
+📋 TO-DO LIST
+
+"One task at a time. One step closer to your goals."
+
+☐ Task 1
+☐ Task 2
+☐ Task 3
+☐ Task 4
+☐ Task 5
