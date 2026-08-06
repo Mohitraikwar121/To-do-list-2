@@ -6,7 +6,6 @@ Description
 A sleek, intuitive, and efficient To-Do List application designed to help users organize their daily tasks, boost productivity, and keep track of their goals.
 
 🚀 Features
-
 *   **Create Tasks:** Easily add new tasks with titles and descriptions.
 *   **Edit/Update:** Modify existing tasks on the fly.
 *   **Mark as Complete:** Check off completed tasks to track progress.
