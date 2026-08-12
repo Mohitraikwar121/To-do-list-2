@@ -18,7 +18,6 @@ A sleek, intuitive, and efficient To-Do List application designed to help users 
 *   **Database:** [e.g., MongoDB / PostgreSQL / None]
 
  📋 Prerequisites
-
 Before you begin, ensure you have met the following requirements:
 * You have installed the latest version of **Node.js and npm** (if applicable).
 * You have a modern web browser installed.
@@ -26,7 +25,6 @@ Before you begin, ensure you have met the following requirements:
 📋 TO-DO LIST
 
 "One task at a time. One step closer to your goals."
-
 ☐ Task 1
 ☐ Task 2
 ☐ Task 3
