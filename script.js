@@ -19,6 +19,7 @@ document.getElementById("addTask").addEventListener("click", function () {
     li.remove();
   });
 
+  
   li.appendChild(span);
   li.appendChild(removeBtn);
   document.getElementById("taskList").appendChild(li);
