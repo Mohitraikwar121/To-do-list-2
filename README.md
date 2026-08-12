@@ -1,8 +1,7 @@
- To-do-list-task 2
+To-do-list-task 2
 Description
 
- To-Do List Application
-
+To-Do List Application
 A sleek, intuitive, and efficient To-Do List application designed to help users organize their daily tasks, boost productivity, and keep track of their goals.
 
 🚀 Features
