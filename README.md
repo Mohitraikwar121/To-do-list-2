@@ -195,7 +195,6 @@ Example:
 This project is created for **educational and development purposes**. You are free to modify and improve it according to your requirements.
 
 ⭐ Support
-
 If you find this project useful, consider giving the repository a ⭐ on GitHub.
 
 💡 "One task at a time. One step closer to your goals."
