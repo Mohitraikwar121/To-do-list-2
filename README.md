@@ -103,7 +103,7 @@ Layout, typography, spacing, and controls all scale to the available screen spac
 
 ### Architecture
 
-```text
+
 User Interface
       │
       ▼
@@ -123,13 +123,13 @@ LocalStorage API
       │
       ▼
 Browser Storage
-```
 
----
+
+
 
 ## 🔄 Application Workflow
 
-```text
+
                     ┌───────────────────┐
                     │    Create Task    │
                     └─────────┬─────────┘
@@ -159,9 +159,8 @@ Browser Storage
              ┌─────────────────┐
              │ Completed Task  │
              └─────────────────┘
-```
 
----
+
 
 ## 💾 Data Persistence
 
@@ -169,26 +168,26 @@ The application uses the browser's **LocalStorage API** to persist task data acr
 
 ### Persistence Flow
 
-```text
+
 ┌─────────────────┐
 │   User Action   │
 └────────┬────────┘
          │
          ▼
-┌───────────────────┐
+┌────────────────────┐
 │ Application State  │
 └────────┬───────────┘
          │
          ▼
-┌─────────────────┐
+┌──────────────────┐
 │   LocalStorage   │
-└────────┬────────┘
+└────────┬─────────┘
          │
          ▼
 ┌─────────────────┐
 │ Browser Storage │
 └─────────────────┘
-```
+
 
 When a task is created, updated, completed, or deleted, the stored task data is updated accordingly. On load, previously stored tasks are retrieved from LocalStorage and rendered in the interface.
 
@@ -203,11 +202,11 @@ When a task is created, updated, completed, or deleted, the stored task data is 
 | Multi-device synchronization | ❌ No |
 | Data scope | Browser/device-specific |
 
----
+
 
 ## 🗂️ Project Structure
 
-```text
+
 To-Do-List/
 │
 ├── index.html
@@ -221,7 +220,7 @@ To-Do-List/
 │   └── completed-tasks.png
 │
 └── README.md
-```
+
 
 ### File Responsibilities
 
