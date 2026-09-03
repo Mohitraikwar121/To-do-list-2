@@ -17,7 +17,7 @@ A modern, responsive, and lightweight **To-Do List web application** for creatin
 
 </div>
 
----
+
 
 ## 📌 Overview
 
@@ -33,7 +33,6 @@ The project is built around three core principles:
 
 It's implemented entirely as a **client-side web application** — no backend server, no database, no build step required.
 
----
 
 ## ✨ Features
 
@@ -90,7 +89,7 @@ Layout, typography, spacing, and controls all scale to the available screen spac
 - Lightweight — no frameworks, no build tools
 - No backend or database required
 
----
+
 
 ## 💻 Technology Stack
 
@@ -222,6 +221,7 @@ To-Do-List/
 └── README.md
 
 
+
 ### File Responsibilities
 
 | File / Directory | Purpose |
@@ -232,7 +232,7 @@ To-Do-List/
 | `screenshots/` | Project screenshots used for documentation |
 | `README.md` | Project documentation |
 
----
+
 
 ## 🚀 Getting Started
 
@@ -248,17 +248,13 @@ No backend server, database, or additional runtime environment is required.
 
 ### Quick Start
 
-```bash
-git clone <repository-url>
-cd To-Do-List
-open index.html   # or double-click the file in your file explorer
-```
+
 
 ### Recommended Development Setup
 
 For a smoother development experience, open the project in **Visual Studio Code** with the **Live Server** extension so changes reload automatically in the browser.
 
----
+
 
 ## 📖 Usage
 
@@ -280,10 +276,7 @@ For a smoother development experience, open the project in **Visual Studio Code*
 
 Use the task checkbox/control to toggle its status:
 
-```text
-Active → Completed
-Completed → Active
-```
+
 
 ### 🗑️ Delete a Task
 
@@ -293,11 +286,8 @@ Select **Delete** to permanently remove a task from the application.
 
 Use the filter controls to quickly switch between task views:
 
-```text
-ALL → ACTIVE → COMPLETED
-```
 
----
+
 
 ## 🖼️ Screenshots
 
@@ -317,7 +307,7 @@ ALL → ACTIVE → COMPLETED
 
 </div>
 
----
+
 
 ## 🌐 Browser Support
 
@@ -332,7 +322,7 @@ ALL → ACTIVE → COMPLETED
 
 > Requires a browser with LocalStorage support (all modern browsers).
 
----
+
 
 ## 🎨 Design & User Experience
 
@@ -351,7 +341,7 @@ Task titles, descriptions, completion states, and available actions are organize
 ### Usability
 Clear controls and predictable interactions help users manage their tasks without unnecessary complexity.
 
----
+
 
 ## 🎯 Project Objectives
 
@@ -369,7 +359,7 @@ This project demonstrates practical frontend development skills, including:
 - Organizing frontend code effectively
 - Creating a practical, real-world web application
 
----
+
 
 ## 🧠 Key Learning Outcomes
 
@@ -387,7 +377,7 @@ This project demonstrates practical frontend development skills, including:
 - User interaction design
 - Frontend project organization
 
----
+
 
 ## 🗺️ Future Improvements
 
@@ -421,7 +411,7 @@ The current implementation covers the core functionality required for task manag
 - [ ] User-specific task management
 - [ ] Collaborative task management
 
----
+
 
 ## ❓ FAQ
 
@@ -434,7 +424,7 @@ Not yet. Tasks are stored locally per browser/device. Multi-device sync is plann
 **Does this require an internet connection?**
 No. Once loaded, the app works fully offline since everything runs client-side.
 
----
+
 
 ## 📊 Project Information
 
@@ -451,13 +441,13 @@ No. Once loaded, the app works fully offline since everything runs client-side.
 | **Database** | None |
 | **Status** | ✅ Completed |
 
----
+
 
 ## 🤝 Contributing
 
 Contributions, improvements, and feature suggestions are welcome!
 
-```text
+
 Fork Repository
       ↓
 Create Feature Branch
@@ -471,7 +461,7 @@ Commit Changes
 Push Branch
       ↓
 Open Pull Request
-```
+
 
 When contributing, please:
 
@@ -480,7 +470,7 @@ When contributing, please:
 - Ensure existing functionality continues to work correctly
 - Add clear commit messages describing your changes
 
----
+
 
 ## 📄 License
 
@@ -488,13 +478,13 @@ This project is developed for **educational and portfolio purposes**.
 
 You are free to modify, extend, and adapt the project for learning and development purposes.
 
----
+
 
 ## ⭐ Support
 
 If this project helped you learn something new, consider giving it a ⭐ **Star** on GitHub — it helps others discover it too.
 
----
+
 
 <div align="center">
 
