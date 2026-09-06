@@ -17,8 +17,6 @@ A modern, responsive, and lightweight **To-Do List web application** for creatin
 
 </div>
 
-
-
 ## 📌 Overview
 
 The To-Do List Application provides a centralized, distraction-free workspace for managing daily tasks and monitoring their completion status.
@@ -72,8 +70,6 @@ The interface adapts cleanly across:
 
 Layout, typography, spacing, and controls all scale to the available screen space without sacrificing readability or accessibility.
 
----
-
 ## 🛠️ Technical Highlights
 
 - Modular frontend structure
@@ -88,8 +84,6 @@ Layout, typography, spacing, and controls all scale to the available screen spac
 - Responsive CSS layout (mobile-first)
 - Lightweight — no frameworks, no build tools
 - No backend or database required
-
-
 
 ## 💻 Technology Stack
 
@@ -123,13 +117,8 @@ LocalStorage API
       ▼
 Browser Storage
 
-
-
-
 ## 🔄 Application Workflow
-
-
-                    ┌───────────────────┐
+                   ┌───────────────────┐
                     │    Create Task    │
                     └─────────┬─────────┘
                               │
@@ -167,7 +156,6 @@ The application uses the browser's **LocalStorage API** to persist task data acr
 
 ### Persistence Flow
 
-
 ┌─────────────────┐
 │   User Action   │
 └────────┬────────┘
@@ -187,7 +175,6 @@ The application uses the browser's **LocalStorage API** to persist task data acr
 │ Browser Storage │
 └─────────────────┘
 
-
 When a task is created, updated, completed, or deleted, the stored task data is updated accordingly. On load, previously stored tasks are retrieved from LocalStorage and rendered in the interface.
 
 ### Storage Characteristics
@@ -201,10 +188,7 @@ When a task is created, updated, completed, or deleted, the stored task data is 
 | Multi-device synchronization | ❌ No |
 | Data scope | Browser/device-specific |
 
-
-
 ## 🗂️ Project Structure
-
 
 To-Do-List/
 │
@@ -220,8 +204,6 @@ To-Do-List/
 │
 └── README.md
 
-
-
 ### File Responsibilities
 
 | File / Directory | Purpose |
@@ -231,8 +213,6 @@ To-Do-List/
 | `script.js` | Task logic, event handling, filtering, and LocalStorage operations |
 | `screenshots/` | Project screenshots used for documentation |
 | `README.md` | Project documentation |
-
-
 
 ## 🚀 Getting Started
 
@@ -248,13 +228,9 @@ No backend server, database, or additional runtime environment is required.
 
 ### Quick Start
 
-
-
 ### Recommended Development Setup
 
 For a smoother development experience, open the project in **Visual Studio Code** with the **Live Server** extension so changes reload automatically in the browser.
-
-
 
 ## 📖 Usage
 
@@ -276,8 +252,6 @@ For a smoother development experience, open the project in **Visual Studio Code*
 
 Use the task checkbox/control to toggle its status:
 
-
-
 ### 🗑️ Delete a Task
 
 Select **Delete** to permanently remove a task from the application.
@@ -285,9 +259,6 @@ Select **Delete** to permanently remove a task from the application.
 ### 🔎 Filter Tasks
 
 Use the filter controls to quickly switch between task views:
-
-
-
 
 ## 🖼️ Screenshots
 
@@ -307,8 +278,6 @@ Use the filter controls to quickly switch between task views:
 
 </div>
 
-
-
 ## 🌐 Browser Support
 
 | Browser | Supported |
@@ -321,8 +290,6 @@ Use the filter controls to quickly switch between task views:
 | Internet Explorer | ❌ Not supported |
 
 > Requires a browser with LocalStorage support (all modern browsers).
-
-
 
 ## 🎨 Design & User Experience
 
@@ -341,8 +308,6 @@ Task titles, descriptions, completion states, and available actions are organize
 ### Usability
 Clear controls and predictable interactions help users manage their tasks without unnecessary complexity.
 
-
-
 ## 🎯 Project Objectives
 
 This project demonstrates practical frontend development skills, including:
@@ -359,8 +324,7 @@ This project demonstrates practical frontend development skills, including:
 - Organizing frontend code effectively
 - Creating a practical, real-world web application
 
-
-
+  
 ## 🧠 Key Learning Outcomes
 
 - JavaScript application logic
@@ -376,8 +340,6 @@ This project demonstrates practical frontend development skills, including:
 - Responsive CSS
 - User interaction design
 - Frontend project organization
-
-
 
 ## 🗺️ Future Improvements
 
@@ -411,8 +373,6 @@ The current implementation covers the core functionality required for task manag
 - [ ] User-specific task management
 - [ ] Collaborative task management
 
-
-
 ## ❓ FAQ
 
 **Will I lose my tasks if I clear my browser cache?**
@@ -423,8 +383,6 @@ Not yet. Tasks are stored locally per browser/device. Multi-device sync is plann
 
 **Does this require an internet connection?**
 No. Once loaded, the app works fully offline since everything runs client-side.
-
-
 
 ## 📊 Project Information
 
@@ -441,12 +399,9 @@ No. Once loaded, the app works fully offline since everything runs client-side.
 | **Database** | None |
 | **Status** | ✅ Completed |
 
-
-
 ## 🤝 Contributing
 
 Contributions, improvements, and feature suggestions are welcome!
-
 
 Fork Repository
       ↓
@@ -462,18 +417,13 @@ Push Branch
       ↓
 Open Pull Request
 
-
 When contributing, please:
-
 - Keep changes focused and scoped to a single feature or fix
 - Maintain the existing project structure and coding style
 - Ensure existing functionality continues to work correctly
 - Add clear commit messages describing your changes
 
-
-
 ## 📄 License
-
 This project is developed for **educational and portfolio purposes**.
 
 You are free to modify, extend, and adapt the project for learning and development purposes.
