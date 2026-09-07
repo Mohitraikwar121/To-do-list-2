@@ -96,7 +96,6 @@ Layout, typography, spacing, and controls all scale to the available screen spac
 
 ### Architecture
 
-
 User Interface
       │
       ▼
@@ -135,44 +134,41 @@ Browser Storage
                     │
                     ▼
              ┌─────────────────┐
-             │  Save Changes   │
+             │  Save Changes      │
              └────────┬────────┘
-                      │
-                      ▼
+                        │
+                        ▼
              ┌─────────────────┐
-             │ Mark Completed  │
+             │ Mark Completed     │
              └────────┬────────┘
-                      │
-                      ▼
+                        │
+                        ▼
              ┌─────────────────┐
-             │ Completed Task  │
+             │ Completed Task     │
              └─────────────────┘
-
-
 
 ## 💾 Data Persistence
 
 The application uses the browser's **LocalStorage API** to persist task data across sessions.
 
 ### Persistence Flow
-
 ┌─────────────────┐
-│   User Action   │
+│   User Action      │
 └────────┬────────┘
          │
          ▼
 ┌────────────────────┐
-│ Application State  │
+│ Application State      │
 └────────┬───────────┘
          │
          ▼
 ┌──────────────────┐
-│   LocalStorage   │
+│   LocalStorage      │ 
 └────────┬─────────┘
-         │
-         ▼
+           │
+           ▼
 ┌─────────────────┐
-│ Browser Storage │
+│ Browser Storage    │
 └─────────────────┘
 
 When a task is created, updated, completed, or deleted, the stored task data is updated accordingly. On load, previously stored tasks are retrieved from LocalStorage and rendered in the interface.
