@@ -136,13 +136,13 @@ Browser Storage
              ┌─────────────────┐
              │  Save Changes   │
              └────────┬────────┘
-                        │
-                        ▼
+                      │
+                      ▼
              ┌─────────────────┐
              │ Mark Completed  │
              └────────┬────────┘
-                        │
-                        ▼
+                      │
+                      ▼
              ┌─────────────────┐
              │ Completed Task  │
              └─────────────────┘
@@ -165,8 +165,8 @@ The application uses the browser's **LocalStorage API** to persist task data acr
 ┌──────────────────┐
 │   LocalStorage   │ 
 └────────┬─────────┘
-           │
-           ▼
+         │
+         ▼
 ┌─────────────────┐
 │ Browser Storage │
 └─────────────────┘
