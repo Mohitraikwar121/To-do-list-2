@@ -31,7 +31,6 @@ The project is built around three core principles:
 
 It's implemented entirely as a **client-side web application** — no backend server, no database, no build step required.
 
-
 ## ✨ Features
 
 ### 📋 Task Management
@@ -117,7 +116,8 @@ LocalStorage API
 Browser Storage
 
 ## 🔄 Application Workflow
-                   ┌───────────────────┐
+
+                    ┌───────────────────┐
                     │    Create Task    │
                     └─────────┬─────────┘
                               │
@@ -134,17 +134,17 @@ Browser Storage
                     │
                     ▼
              ┌─────────────────┐
-             │  Save Changes      │
+             │  Save Changes   │
              └────────┬────────┘
                         │
                         ▼
              ┌─────────────────┐
-             │ Mark Completed     │
+             │ Mark Completed  │
              └────────┬────────┘
                         │
                         ▼
              ┌─────────────────┐
-             │ Completed Task     │
+             │ Completed Task  │
              └─────────────────┘
 
 ## 💾 Data Persistence
@@ -153,22 +153,22 @@ The application uses the browser's **LocalStorage API** to persist task data acr
 
 ### Persistence Flow
 ┌─────────────────┐
-│   User Action      │
+│   User Action   │
 └────────┬────────┘
          │
          ▼
 ┌────────────────────┐
-│ Application State      │
+│ Application State  │
 └────────┬───────────┘
          │
          ▼
 ┌──────────────────┐
-│   LocalStorage      │ 
+│   LocalStorage   │ 
 └────────┬─────────┘
            │
            ▼
 ┌─────────────────┐
-│ Browser Storage    │
+│ Browser Storage │
 └─────────────────┘
 
 When a task is created, updated, completed, or deleted, the stored task data is updated accordingly. On load, previously stored tasks are retrieved from LocalStorage and rendered in the interface.
@@ -424,18 +424,12 @@ This project is developed for **educational and portfolio purposes**.
 
 You are free to modify, extend, and adapt the project for learning and development purposes.
 
-
-
 ## ⭐ Support
-
 If this project helped you learn something new, consider giving it a ⭐ **Star** on GitHub — it helps others discover it too.
-
-
 
 <div align="center">
 
 ### 📝 Built to keep tasks simple, organized, and actionable.
-
 **One task at a time. One step closer to your goals.**
 
 </div>
