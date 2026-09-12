@@ -17,6 +17,7 @@ A modern, responsive, and lightweight **To-Do List web application** for creatin
 
 </div>
 
+
 ## 📌 Overview
 
 The To-Do List Application provides a centralized, distraction-free workspace for managing daily tasks and monitoring their completion status.
@@ -30,6 +31,7 @@ The project is built around three core principles:
 | 📱 **Responsiveness** | Deliver a consistent experience across desktop, tablet, and mobile |
 
 It's implemented entirely as a **client-side web application** — no backend server, no database, no build step required.
+
 
 ## ✨ Features
 
