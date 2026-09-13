@@ -1,7 +1,6 @@
 <div align="center">
 
 # 📝 To-Do List Application
-
 **One task at a time. One step closer to your goals.**
 
 A modern, responsive, and lightweight **To-Do List web application** for creating, managing, organizing, and tracking everyday tasks — right in your browser, with zero setup.
@@ -14,12 +13,9 @@ A modern, responsive, and lightweight **To-Do List web application** for creatin
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen)](#-contributing)
 
 [Features](#-features) • [Demo](#-screenshots) • [Getting Started](#-getting-started) • [Usage](#-usage) • [Roadmap](#%EF%B8%8F-future-improvements) • [Contributing](#-contributing)
-
 </div>
 
-
 ## 📌 Overview
-
 The To-Do List Application provides a centralized, distraction-free workspace for managing daily tasks and monitoring their completion status.
 
 The project is built around three core principles:
@@ -34,9 +30,7 @@ It's implemented entirely as a **client-side web application** — no backend se
 
 
 ## ✨ Features
-
 ### 📋 Task Management
-
 | Feature | Description |
 | --- | --- |
 | ➕ Create Task | Add a new task with a title and optional description |
@@ -46,7 +40,6 @@ It's implemented entirely as a **client-side web application** — no backend se
 | 📋 Task Overview | View and manage all tasks from a centralized interface |
 
 ### 🔎 Task Filtering
-
 Tasks can be filtered based on their current status:
 
 - **All** — Display every task
@@ -54,7 +47,6 @@ Tasks can be filtered based on their current status:
 - **Completed** — Display finished tasks only
 
 ### 💾 Persistent Data
-
 Task data is stored in the browser using the **LocalStorage API**, so tasks remain available after:
 
 - ✅ Page refreshes
@@ -64,7 +56,6 @@ Task data is stored in the browser using the **LocalStorage API**, so tasks rema
 > **Note:** Since data is stored locally, tasks are device/browser-specific and are **not** synchronized across devices.
 
 ### 📱 Responsive Design
-
 The interface adapts cleanly across:
 
 🖥️ Desktop · 💻 Laptop · 📱 Tablet · 📲 Mobile
@@ -72,7 +63,6 @@ The interface adapts cleanly across:
 Layout, typography, spacing, and controls all scale to the available screen space without sacrificing readability or accessibility.
 
 ## 🛠️ Technical Highlights
-
 - Modular frontend structure
 - Client-side application state handling
 - Dynamic DOM rendering
@@ -87,7 +77,6 @@ Layout, typography, spacing, and controls all scale to the available screen spac
 - No backend or database required
 
 ## 💻 Technology Stack
-
 | Technology | Purpose |
 | --- | --- |
 | **HTML5** | Semantic application structure and markup |
@@ -118,7 +107,6 @@ LocalStorage API
 Browser Storage
 
 ## 🔄 Application Workflow
-
                     ┌───────────────────┐
                     │    Create Task    │
                     └─────────┬─────────┘
@@ -150,7 +138,6 @@ Browser Storage
              └─────────────────┘
 
 ## 💾 Data Persistence
-
 The application uses the browser's **LocalStorage API** to persist task data across sessions.
 
 ### Persistence Flow
@@ -176,7 +163,6 @@ The application uses the browser's **LocalStorage API** to persist task data acr
 When a task is created, updated, completed, or deleted, the stored task data is updated accordingly. On load, previously stored tasks are retrieved from LocalStorage and rendered in the interface.
 
 ### Storage Characteristics
-
 | Property | Value |
 | --- | --- |
 | Storage type | Browser LocalStorage |
@@ -187,7 +173,6 @@ When a task is created, updated, completed, or deleted, the stored task data is 
 | Data scope | Browser/device-specific |
 
 ## 🗂️ Project Structure
-
 To-Do-List/
 │
 ├── index.html
@@ -203,7 +188,6 @@ To-Do-List/
 └── README.md
 
 ### File Responsibilities
-
 | File / Directory | Purpose |
 | --- | --- |
 | `index.html` | Application structure and UI elements |
