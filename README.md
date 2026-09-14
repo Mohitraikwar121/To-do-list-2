@@ -1,5 +1,4 @@
 <div align="center">
-
 # 📝 To-Do List Application
 **One task at a time. One step closer to your goals.**
 
@@ -76,6 +75,7 @@ Layout, typography, spacing, and controls all scale to the available screen spac
 - Lightweight — no frameworks, no build tools
 - No backend or database required
 
+
 ## 💻 Technology Stack
 | Technology | Purpose |
 | --- | --- |
@@ -85,7 +85,6 @@ Layout, typography, spacing, and controls all scale to the available screen spac
 | **LocalStorage API** | Persistent client-side task storage |
 
 ### Architecture
-
 User Interface
       │
       ▼
@@ -105,6 +104,7 @@ LocalStorage API
       │
       ▼
 Browser Storage
+
 
 ## 🔄 Application Workflow
                     ┌───────────────────┐
@@ -144,21 +144,22 @@ The application uses the browser's **LocalStorage API** to persist task data acr
 ┌─────────────────┐
 │   User Action   │
 └────────┬────────┘
-         │
-         ▼
+           │
+           ▼
 ┌────────────────────┐
 │ Application State  │
 └────────┬───────────┘
-         │
-         ▼
+           │
+           ▼
 ┌──────────────────┐
 │   LocalStorage   │ 
 └────────┬─────────┘
-         │
-         ▼
+           │
+           ▼
 ┌─────────────────┐
 │ Browser Storage │
 └─────────────────┘
+
 
 When a task is created, updated, completed, or deleted, the stored task data is updated accordingly. On load, previously stored tasks are retrieved from LocalStorage and rendered in the interface.
 
