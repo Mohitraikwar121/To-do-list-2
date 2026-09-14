@@ -27,7 +27,6 @@ The project is built around three core principles:
 
 It's implemented entirely as a **client-side web application** — no backend server, no database, no build step required.
 
-
 ## ✨ Features
 ### 📋 Task Management
 | Feature | Description |
@@ -37,7 +36,6 @@ It's implemented entirely as a **client-side web application** — no backend se
 | ✅ Complete Task | Mark tasks as completed or return them to active status |
 | 🗑️ Delete Task | Permanently remove a task |
 | 📋 Task Overview | View and manage all tasks from a centralized interface |
-
 ### 🔎 Task Filtering
 Tasks can be filtered based on their current status:
 
@@ -47,7 +45,6 @@ Tasks can be filtered based on their current status:
 
 ### 💾 Persistent Data
 Task data is stored in the browser using the **LocalStorage API**, so tasks remain available after:
-
 - ✅ Page refreshes
 - ✅ Closing and reopening the browser
 - ✅ Returning to the app later
@@ -74,7 +71,6 @@ Layout, typography, spacing, and controls all scale to the available screen spac
 - Responsive CSS layout (mobile-first)
 - Lightweight — no frameworks, no build tools
 - No backend or database required
-
 
 ## 💻 Technology Stack
 | Technology | Purpose |
@@ -198,11 +194,9 @@ To-Do-List/
 | `README.md` | Project documentation |
 
 ## 🚀 Getting Started
-
 ### Prerequisites
 
 You only need:
-
 - A modern web browser
 - A code editor such as Visual Studio Code
 - Git *(optional, for cloning the repository)*
@@ -210,13 +204,11 @@ You only need:
 No backend server, database, or additional runtime environment is required.
 
 ### Quick Start
-
 ### Recommended Development Setup
 
 For a smoother development experience, open the project in **Visual Studio Code** with the **Live Server** extension so changes reload automatically in the browser.
 
 ## 📖 Usage
-
 ### ➕ Create a Task
 
 1. Enter the task title.
@@ -225,27 +217,19 @@ For a smoother development experience, open the project in **Visual Studio Code*
 4. The new task appears in the task list.
 
 ### ✏️ Edit a Task
-
 1. Locate the task you want to modify.
 2. Select **Edit**.
 3. Update the task information.
 4. Save the changes.
 
 ### ✅ Complete a Task
-
 Use the task checkbox/control to toggle its status:
 
 ### 🗑️ Delete a Task
-
 Select **Delete** to permanently remove a task from the application.
 
 ### 🔎 Filter Tasks
-
 Use the filter controls to quickly switch between task views:
-
-## 🖼️ Screenshots
-
-<div align="center">
 
 ### Dashboard
 <img src="screenshots/home.png" alt="To-Do List Dashboard" width="700" />
@@ -262,7 +246,6 @@ Use the filter controls to quickly switch between task views:
 </div>
 
 ## 🌐 Browser Support
-
 | Browser | Supported |
 | --- | --- |
 | Chrome | ✅ |
@@ -271,11 +254,9 @@ Use the filter controls to quickly switch between task views:
 | Safari | ✅ |
 | Opera | ✅ |
 | Internet Explorer | ❌ Not supported |
-
 > Requires a browser with LocalStorage support (all modern browsers).
 
 ## 🎨 Design & User Experience
-
 ### Simplicity
 The interface minimizes unnecessary elements and keeps the primary task workflow easy to understand.
 
@@ -292,7 +273,6 @@ Task titles, descriptions, completion states, and available actions are organize
 Clear controls and predictable interactions help users manage their tasks without unnecessary complexity.
 
 ## 🎯 Project Objectives
-
 This project demonstrates practical frontend development skills, including:
 
 - Building a functional task-management application
@@ -309,7 +289,6 @@ This project demonstrates practical frontend development skills, including:
 
   
 ## 🧠 Key Learning Outcomes
-
 - JavaScript application logic
 - DOM manipulation
 - Event handling
@@ -325,7 +304,6 @@ This project demonstrates practical frontend development skills, including:
 - Frontend project organization
 
 ## 🗺️ Future Improvements
-
 The current implementation covers the core functionality required for task management. Planned enhancements are grouped by phase below.
 
 ### Phase 1 — Productivity
@@ -356,8 +334,6 @@ The current implementation covers the core functionality required for task manag
 - [ ] User-specific task management
 - [ ] Collaborative task management
 
-## ❓ FAQ
-
 **Will I lose my tasks if I clear my browser cache?**
 Yes — since tasks live in LocalStorage, clearing site data or browser storage will remove them. Export/backup functionality is on the future roadmap.
 
@@ -368,7 +344,6 @@ Not yet. Tasks are stored locally per browser/device. Multi-device sync is plann
 No. Once loaded, the app works fully offline since everything runs client-side.
 
 ## 📊 Project Information
-
 | Property | Details |
 | --- | --- |
 | **Project Name** | To-Do List Application |
