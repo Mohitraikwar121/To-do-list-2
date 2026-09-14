@@ -58,6 +58,7 @@ The interface adapts cleanly across:
 
 Layout, typography, spacing, and controls all scale to the available screen space without sacrificing readability or accessibility.
 
+
 ## 🛠️ Technical Highlights
 - Modular frontend structure
 - Client-side application state handling
@@ -100,7 +101,6 @@ LocalStorage API
       │
       ▼
 Browser Storage
-
 
 ## 🔄 Application Workflow
                     ┌───────────────────┐
@@ -156,7 +156,6 @@ The application uses the browser's **LocalStorage API** to persist task data acr
 │ Browser Storage    │
 └─────────────────┘
 
-
 When a task is created, updated, completed, or deleted, the stored task data is updated accordingly. On load, previously stored tasks are retrieved from LocalStorage and rendered in the interface.
 
 ### Storage Characteristics
@@ -200,7 +199,6 @@ You only need:
 - A modern web browser
 - A code editor such as Visual Studio Code
 - Git *(optional, for cloning the repository)*
-
 No backend server, database, or additional runtime environment is required.
 
 ### Quick Start
@@ -354,7 +352,6 @@ No. Once loaded, the app works fully offline since everything runs client-side.
 | **Status** | ✅ Completed |
 
 ## 🤝 Contributing
-
 Contributions, improvements, and feature suggestions are welcome!
 
 Fork Repository
@@ -388,5 +385,4 @@ If this project helped you learn something new, consider giving it a ⭐ **Star*
 
 ### 📝 Built to keep tasks simple, organized, and actionable.
 **One task at a time. One step closer to your goals.**
-
 </div>
