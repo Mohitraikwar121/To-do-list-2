@@ -138,22 +138,22 @@ The application uses the browser's **LocalStorage API** to persist task data acr
 
 ### Persistence Flow
 ┌─────────────────┐
-│   User Action   │
+│   User Action      │
 └────────┬────────┘
            │
            ▼
 ┌────────────────────┐
-│ Application State  │
+│ Application State      │ 
 └────────┬───────────┘
            │
            ▼
 ┌──────────────────┐
-│   LocalStorage   │ 
+│   LocalStorage      │ 
 └────────┬─────────┘
            │
            ▼
 ┌─────────────────┐
-│ Browser Storage │
+│ Browser Storage    │
 └─────────────────┘
 
 
@@ -205,12 +205,10 @@ No backend server, database, or additional runtime environment is required.
 
 ### Quick Start
 ### Recommended Development Setup
-
 For a smoother development experience, open the project in **Visual Studio Code** with the **Live Server** extension so changes reload automatically in the browser.
 
 ## 📖 Usage
 ### ➕ Create a Task
-
 1. Enter the task title.
 2. Add an optional description.
 3. Select **Add Task**.
@@ -242,7 +240,6 @@ Use the filter controls to quickly switch between task views:
 
 ### Completed Tasks
 <img src="screenshots/completed-tasks.png" alt="Completed Tasks" width="700" />
-
 </div>
 
 ## 🌐 Browser Support
@@ -286,7 +283,6 @@ This project demonstrates practical frontend development skills, including:
 - Handling form input and validation
 - Organizing frontend code effectively
 - Creating a practical, real-world web application
-
   
 ## 🧠 Key Learning Outcomes
 - JavaScript application logic
@@ -388,7 +384,6 @@ You are free to modify, extend, and adapt the project for learning and developme
 
 ## ⭐ Support
 If this project helped you learn something new, consider giving it a ⭐ **Star** on GitHub — it helps others discover it too.
-
 <div align="center">
 
 ### 📝 Built to keep tasks simple, organized, and actionable.
