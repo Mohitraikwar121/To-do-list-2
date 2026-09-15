@@ -58,7 +58,6 @@ The interface adapts cleanly across:
 
 Layout, typography, spacing, and controls all scale to the available screen space without sacrificing readability or accessibility.
 
-
 ## 🛠️ Technical Highlights
 - Modular frontend structure
 - Client-side application state handling
@@ -101,6 +100,7 @@ LocalStorage API
       │
       ▼
 Browser Storage
+
 
 ## 🔄 Application Workflow
                     ┌───────────────────┐
@@ -167,6 +167,7 @@ When a task is created, updated, completed, or deleted, the stored task data is 
 | Cloud synchronization | ❌ No |
 | Multi-device synchronization | ❌ No |
 | Data scope | Browser/device-specific |
+
 
 ## 🗂️ Project Structure
 To-Do-List/
