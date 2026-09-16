@@ -35,7 +35,8 @@ It's implemented entirely as a **client-side web application** — no backend se
 | ✏️ Edit Task | Modify the details of an existing task |
 | ✅ Complete Task | Mark tasks as completed or return them to active status |
 | 🗑️ Delete Task | Permanently remove a task |
-| 📋 Task Overview | View and manage all tasks from a centralized interface |
+| 📋 Task Overview | View and manage all tasks from a centralized interface 
+
 ### 🔎 Task Filtering
 Tasks can be filtered based on their current status:
 
@@ -53,7 +54,6 @@ Task data is stored in the browser using the **LocalStorage API**, so tasks rema
 
 ### 📱 Responsive Design
 The interface adapts cleanly across:
-
 🖥️ Desktop · 💻 Laptop · 📱 Tablet · 📲 Mobile
 
 Layout, typography, spacing, and controls all scale to the available screen space without sacrificing readability or accessibility.
