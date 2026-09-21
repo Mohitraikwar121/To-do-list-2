@@ -7,7 +7,7 @@
 A modern, responsive, and lightweight **To-Do List web application** for creating, organizing, tracking, and managing everyday tasks directly in your browser.
 
 Built with **HTML5, CSS3, and JavaScript**, the application requires **no backend, database, framework, or build process**.
-
+ 
 <p> 
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
