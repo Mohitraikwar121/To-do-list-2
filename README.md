@@ -3,7 +3,7 @@
 ### **One task at a time. One step closer to your goals.**
                         
 A modern, responsive, and lightweight **To-Do List web application** for creating, organizing, tracking, and managing everyday tasks directly in your browser.
- 
+  
 Built with **HTML5, CSS3, and JavaScript**, the application requires **no backend, database, framework, or build process**.
   
 <p> 
