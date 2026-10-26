@@ -11,7 +11,7 @@ Built with **HTML5, CSS3, and JavaScript**, the application requires **no backen
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
   <img  src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/LocalStorage-API-4CAF50?style=for-the-badge" alt="LocalStorage">
-</p>
+</p> 
 
 <p>
   <img src="https://img.shields.io/badge/Backend-None-lightgrey?style=flat-square" alt="Backend">
