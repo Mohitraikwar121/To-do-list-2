@@ -12,7 +12,7 @@ Built with **HTML5, CSS3, and JavaScript**, the application requires **no backen
   <img  src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/LocalStorage-API-4CAF50?style=for-the-badge" alt="LocalStorage">
 </p> 
-
+ 
 <p>
   <img src="https://img.shields.io/badge/Backend-None-lightgrey?style=flat-square" alt="Backend">
   <img src="https://img.shields.io/badge/Database-None-lightgrey?style=flat-square" alt="Database">
